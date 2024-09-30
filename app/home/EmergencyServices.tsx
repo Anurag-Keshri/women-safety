@@ -19,11 +19,11 @@ function EmergencyCard({
 }: EmergencyCardProps) {
   return (
     <div
-      className={`w-full ${bgColor} rounded-lg ${borderColor} text-neutral-content p-4 flex flex-col gap-4`}
+      className={`w-full ${bgColor} rounded-2xl ${borderColor} text-neutral-content px-4 py-2 lg:p-4 flex flex-col gap-4`}
     >
       <div className="flex flex-row items-center justify-center lg:justify-start gap-4">
         <div>
-          <div className="w-12 h-12">{icon}</div>
+          <div className="w-10 h-10 lg:w-12 lg:h-12">{icon}</div>
         </div>
         <div className="text-2xl font-bold z-10 hidden lg:block">{title}</div>
       </div>
