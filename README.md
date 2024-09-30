@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Women's Safety Web Application
 
-## Getting Started
+## Overview
 
-First, run the development server:
+This project focuses on developing a web application dedicated to women's safety.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Core Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. **Emergency Alerts (Panic Button):**  
+   A prominent panic button that instantly sends alerts and notifications to pre-selected contacts.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. **Live Location Sharing:**  
+   Option to share real-time location with trusted contacts during emergencies.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. **Self-Defense Tips and Videos:**  
+   A library of self-defense techniques and instructional videos to help women protect themselves.
 
-## Learn More
+4. **Emergency Services:**  
+   Quick-dial integration for emergency services (police, ambulance, etc.) based on user location.
 
-To learn more about Next.js, take a look at the following resources:
+5. **Protective Product:**  
+   Curated list of protective products, such as pepper spray or personal alarms, with reviews and purchase links.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+6. **Articles and Blog Posts:**  
+   A curated library of articles and blogs on women's safety, self-defense, awareness, and more.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Advanced Features
 
-## Deploy on Vercel
+7. **Geofencing Alerts:**  
+   Users receive notifications if they enter high-risk or dangerous areas based on reports or local crime data.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+8. **Incident Reporting:**  
+   Users can report incidents or harassment directly within the app, with the option to remain anonymous.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+9. **Safety Community:**  
+   A forum where users can anonymously share safety tips, experiences, or report unsafe locations.
+
+### Future Features
+
+- **Medical Information Sharing:**  
+   Users can input important medical information (e.g., allergies, health conditions) that will be shared during emergencies.
+
+- **Offline Mode:**  
+	Emergency features like SMS alerts and location sharing work even without an internet connection.
+
+- **Voice Activation:**  
+	Trigger emergency alerts through voice commands, useful when physically accessing the device is difficult.
+
+- **Multilingual Support:**  
+	Support for multiple languages, including English, Spanish, French, German, and Italian.
+
+### Tech Stack
+
+- **Frontend:**
+  - Next.js
+  - Tailwind CSS
+  - DaisyUI
+  - Icons ([Heroicons](https://heroicons.com/) | [Lucide](https://lucide.dev/))
+
+- **Backend:** Next.js, Firebase
+
+- **Database:** Firestore
+
+- **Authentication:** Firebase Authentication
+
+- **Storage:** Firebase Storage
+
+- **Hosting:** Firebase Hosting
+
+- **Deployment:** Vercel
+
+
