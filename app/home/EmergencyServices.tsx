@@ -39,11 +39,11 @@ function EmergencyCard({
 export default function EmergencyServices() {
   return (
     <div className="flex flex-col w-full p-8 pb-10 gap-4 bg-base-300">
-      <h2 className="text-2xl font-bold hidden lg:block">Emergency Services</h2>
-      <p className="text-muted-foreground hidden lg:block">
+      <h2 className="text-2xl font-bold hidden ">Emergency Services</h2>
+      <p className="text-muted-foreground hidden ">
         Access our comprehensive emergency services directory for immediate assistance.
       </p>
-      <div className="grid grid-cols-4 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-4 w-full justify-center">
+      <div className="grid grid-cols-4 gap-4 w-full justify-center">
         <EmergencyCard
           title="Police"
           icon={<Shield className="w-full h-full" />}

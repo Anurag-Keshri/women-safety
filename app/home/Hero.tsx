@@ -3,7 +3,7 @@ import { CircleAlert, MapPin } from "lucide-react";
 export default function HeroSection() {
   return (
     <div className="flex flex-col p-8">
-      <div className="grid grid-cols-1 lg:grid-cols-2 h-[65svh] lg:h-auto gap-4">
+      <div className="grid grid-cols-1 lg:grid-cols-2 h-[65svh] overflow:hidden lg:h-auto gap-4">
         <div className="flex flex-col justify-end lg:justify-center gap-4 w-full order-last lg:order-first">
           <div className="text-5xl font-bold hidden lg:block">{"Empowering Women's Safety"}</div>
           <div className="text-lg hidden lg:block">
@@ -29,12 +29,11 @@ export default function HeroSection() {
           </div>
         </div>
 
-        <div className="flex justify-end">
-          <img
+        <div className="flex justify-center overflow-hidden">
+				<img
             src="/images/placeholder.svg"
             alt="Placeholder"
-            className="rounded-xl w-[60rem] fit-cover"
-            style={{ aspectRatio: "16/9", objectFit: "cover" }}
+            className="rounded-xl w-full object-cover aspect-[16/9]"
           />
         </div>
       </div>
