@@ -4,7 +4,7 @@ import Hero from "./home/Hero";
 import EmergencyServices from "./home/EmergencyServices";
 import SelfDefenseTips from "./home/SelfDefenseTips";
 import ProtectiveProducts from "./home/ProtectiveProducts";
-import LatestArticles from "./home/LatestArticles";
+import Articles from "./home/Articles";
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
       <EmergencyServices />
       <SelfDefenseTips />
       <ProtectiveProducts />
-      <LatestArticles />
+      <Articles />
       <Footer />
     </div>
   );

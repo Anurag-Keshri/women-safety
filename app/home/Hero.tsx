@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { CircleAlert, MapPin } from "lucide-react";
 
 export default function HeroSection() {
@@ -5,7 +6,7 @@ export default function HeroSection() {
     <div className="flex flex-col p-8">
       <div className="grid grid-cols-1 lg:grid-cols-2 h-[70vh] lg:h-auto gap-4">
         <div className="flex flex-col justify-end lg:justify-center gap-4 w-full order-last lg:order-first">
-          <div className="text-5xl font-bold hidden lg:block">Empowering Women's Safety</div>
+          <div className="text-5xl font-bold hidden lg:block">{"Empowering Women's Safety"}</div>
           <div className="text-lg hidden lg:block">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
             accusantium veritatis impedit pariatur sit, laudantium quia minima
@@ -30,7 +31,7 @@ export default function HeroSection() {
         </div>
 
         <div className="flex justify-end">
-          <img
+          <Image
             src="/images/placeholder.svg"
             alt="Placeholder"
             className="rounded-xl w-[60rem] fit-cover"

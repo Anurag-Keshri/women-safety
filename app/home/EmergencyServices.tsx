@@ -3,7 +3,6 @@ import { Shield, Stethoscope, Flame } from "lucide-react";
 interface EmergencyCardProps {
   title: string;
   icon: React.ReactNode;
-  description: string;
   dialNumber: string;
   bgColor: string;
   borderColor: string;
@@ -13,7 +12,6 @@ interface EmergencyCardProps {
 function EmergencyCard({
   title,
   icon,
-  description,
   dialNumber,
   bgColor,
   borderColor,
@@ -49,7 +47,6 @@ export default function EmergencyServices() {
         <EmergencyCard
           title="Police"
           icon={<Shield className="w-full h-full" />}
-          description="For immediate assistance in case of emergencies, crimes in progress, or urgent situations requiring police intervention."
           dialNumber="911"
           bgColor="bg-neutral"
           borderColor=""
@@ -58,7 +55,6 @@ export default function EmergencyServices() {
         <EmergencyCard
           title="Fire Department"
           icon={<Flame className="w-full h-full" />}
-          description="For immediate assistance in case of emergencies, crimes in progress, or urgent situations requiring police intervention."
           dialNumber="911"
           bgColor="bg-neutral"
           borderColor=""
@@ -67,7 +63,6 @@ export default function EmergencyServices() {
         <EmergencyCard
           title="Ambulance"
           icon={<Stethoscope className="w-full h-full" />}
-          description="For immediate assistance in case of emergencies, crimes in progress, or urgent situations requiring police intervention."
           dialNumber="911"
           bgColor="bg-neutral"
           borderColor=""
@@ -76,7 +71,6 @@ export default function EmergencyServices() {
         <EmergencyCard
           title="Police"
           icon={<Shield className="w-full h-full" />}
-          description="For immediate assistance in case of emergencies, crimes in progress, or urgent situations requiring police intervention."
           dialNumber="911"
           bgColor="bg-neutral"
           borderColor=""
