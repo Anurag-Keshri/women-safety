@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ShieldCheck, Menu } from "lucide-react";
+import { ShieldCheck } from "lucide-react";
 
 const navItems = [
   {
