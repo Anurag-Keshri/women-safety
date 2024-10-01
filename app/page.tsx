@@ -1,10 +1,10 @@
-import Navbar from "../components/Navbar";
-import Footer from "@/components/Footer";
-import Hero from "./home/Hero";
-import EmergencyServices from "./home/EmergencyServices";
-import SelfDefenseTips from "./home/SelfDefenseTips";
-import ProtectiveProducts from "./home/ProtectiveProducts";
-import Articles from "./home/Articles";
+import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
+import Hero from "./home/hero";
+import EmergencyServices from "./home/emergency-services";
+import SelfDefenseTips from "./home/self-defense";
+import ProtectiveProducts from "./home/products";
+import Articles from "./home/articles";
 
 export default function Home() {
   return (
