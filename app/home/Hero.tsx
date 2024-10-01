@@ -11,11 +11,11 @@ export default function HeroSection() {
             accusantium veritatis impedit pariatur sit, laudantium quia minima
             qui doloribus eveniet.
           </div>
-          <div className="grid grid-cols-1  2xl:grid-cols-[auto,1fr]  gap-4">
-            <button className="btn btn-error h-20 w-full 2xl:btn-wide">
+          <div className="grid grid-cols-1 md:grid-cols-[1fr,1fr] lg:grid-cols-[1fr,2fr]  gap-4">
+            <button className="btn btn-error h-20 w-full shrink-0">
               <CircleAlert className="w-10 h-10 text-base-300" />
             </button>
-            <button className="btn  h-20 flex-1">
+            <button className="btn h-20 overflow-hidden">
               <div className="flex w-full gap-4">
                 <MapPin className="w-10 h-10 min-w-10" />
                 {/* Add a gps coordinate here.*/}
